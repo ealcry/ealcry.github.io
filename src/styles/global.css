@@ -1,4 +1,27 @@
+@font-face {
+    font-family: "OpenMoji";
+    src: url("/fonts/openmoji_color.woff2") format("woff2");
+    /* OpenMoji-color-glyf_colr_0.woff2 */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Maple Mono";
+    src: url("/fonts/maple.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     color: orange;
-    font-family: 'Maple Mono', 'Maple Mono NF CN', 'OpenMoji Color';
+    font-family: 'Maple Mono', 'OpenMoji';
+}
+
+*:not(h1) {
+    color: orange;
+    font-family: 'Maple Mono', 'OpenMoji';
+    font-size: 16pt;
 }
