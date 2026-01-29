@@ -1,5 +1,5 @@
 {
-  "name": "ealcry.github.io",
+  "name": "ettela.github.io",
   "version": "1.0.0",
   "description": "personal blog repo",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "preview": "astro preview"
   },
   "keywords": [],
-  "author": "ealcry",
+  "author": "ettela",
   "license": "Apache-2.0",
   "packageManager": "pnpm@10.28.1",
   "dependencies": {

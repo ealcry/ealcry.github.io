@@ -32,12 +32,10 @@
 }
 
 * {
-    color: orange;
     font-family: 'Maple Mono First', 'OpenMoji', 'Maple Mono Second', 'Maple Mono';
 }
 
 *:not(h1) {
-    color: orange;
     font-family: 'Maple Mono First', 'OpenMoji', 'Maple Mono Second', 'Maple Mono';
     font-size: 16pt;
 }

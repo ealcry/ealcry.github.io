@@ -2,5 +2,5 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: "https://ealcry.github.io",
+    site: "https://ettela.github.io",
 });
