@@ -8,16 +8,16 @@
 }
 
 @font-face {
-    font-family: "Maple Mono First";
-    src: url("/fonts/maple_sim.woff2") format("woff2");
+    font-family: "Maple Mono";
+    src: url("/fonts/maple_sym.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Maple Mono Second";
-    src: url("/fonts/maple_cn.woff2") format("woff2");
+    font-family: "Maple Mono";
+    src: url("/fonts/maple_sim.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -32,10 +32,6 @@
 }
 
 * {
-    font-family: 'Maple Mono First', 'OpenMoji', 'Maple Mono Second', 'Maple Mono';
-}
-
-*:not(h1) {
-    font-family: 'Maple Mono First', 'OpenMoji', 'Maple Mono Second', 'Maple Mono';
-    font-size: 16pt;
+    font-family: 'Maple Mono', 'OpenMoji';
+    color: rgb(247, 187, 36);
 }
